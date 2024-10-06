@@ -1,7 +1,12 @@
-@import 'font';
+// @import 'font';
 @import 'variables';
 @import 'breakpoint';
 @import 'reset';
 @import 'mixins';
-@import 'base';
-@import 'cursor'
+// @import 'base';
+// @import 'cursor'
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
