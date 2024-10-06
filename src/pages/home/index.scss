@@ -1,0 +1,6 @@
+.home{
+    color: green;
+    @include breakpoint-up(md){
+        color: #000;
+    }
+}
