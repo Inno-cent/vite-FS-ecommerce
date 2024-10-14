@@ -1,3 +1,4 @@
+//colors
 $white: #ffffff;
 $black: #222222;
 $primary-blue: #2d3c49;
@@ -12,3 +13,15 @@ $inactive-text: #969ea4;
 $border-brown: rgba(45, 60, 73, 1);
 $border-grey: rgba(244, 245, 246, 1);
 $secondary-color: green;
+
+//fonts
+$font-av-bold: 'av-bold, sans-serif';
+$font-av-regular: 'av-regular, sans-serif';
+$font-av-medium: 'av-medium, sans-serif';
+$logofont: "Zilla Slab Highlight", serif;
+
+//units
+$container: 100%;
+$wrapper-padding: 0 1.25rem;
+$wrapper-max-width: 1150px;
+$font-size: 1rem;

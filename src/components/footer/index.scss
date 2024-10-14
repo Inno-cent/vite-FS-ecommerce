@@ -1,0 +1,116 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.footer-wrapper {
+    max-width: $wrapper-max-width;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: #e9e3dd;
+    margin: 1rem 0;
+}
+.logo {
+    width: 100px;
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: 'av-bold, sans-serif';
+        color: #222222;
+        font-family: $logofont;
+    }
+}
+
+.footer-links {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 3rem;
+
+    ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        span {
+            font-weight: 600;
+            font-family: $font-av-bold;
+            font-size: 16px;
+            margin-bottom: 1rem;   
+        }
+
+        li {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'av-regular, sans-serif';
+            margin-bottom: .5rem;
+            cursor: pointer;
+            color: #494747;
+
+
+            a {
+                text-decoration: none;
+                color: #222222;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+.footer-lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'av-regular, sans-serif';
+        color: #494747;
+    }
+
+    .footer-social {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        list-style-type: none;
+
+
+        span {
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+}

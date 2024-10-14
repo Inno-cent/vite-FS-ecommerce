@@ -1,0 +1,113 @@
+.home-main {
+    width: 100%;
+    height: 100%;
+}
+
+.category-cards {
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.category-cards--wrapper {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    max-width: $wrapper-max-width;
+    margin: 0 auto;
+    padding: $wrapper-padding;
+}
+
+.explore-cards {
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.explore-cards--wrapper {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: $wrapper-max-width;
+    margin: 0 auto;
+    padding: $wrapper-padding;
+}
+
+
+.wavetext {
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.wavetext--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: $wrapper-max-width;
+    margin: 0 auto;
+    padding: $wrapper-padding;
+    padding: 2rem 0;
+}
+
+//INTRODUCE PRODUCT
+.introduce-product {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.introduce-product--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: $wrapper-max-width;
+    margin: 0 auto;
+    padding: $wrapper-padding;
+
+    h3 {
+        font-size: 3rem;
+        font-weight: 700;
+        opacity: 0.4;
+        color: $black;
+        margin-bottom: 1rem;
+    }
+
+    .introduce-product-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $black;
+        margin-bottom: 1rem;
+    }
+
+    .introduce-product-content {
+       font-size: 1rem;
+       font-weight: 300;
+        color: $black;
+        margin-bottom: 2rem;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    button {
+        @include save--button--wrapper;
+        background-color: $black;
+        color: $white;
+        font-weight: 600;
+        margin-top: 1rem;
+        border-radius: 40px;
+    }
+
+    .introduce-product--image {
+        width: 100%;
+        height: 100%;
+        margin-top: 3.5rem;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+    }
+}
