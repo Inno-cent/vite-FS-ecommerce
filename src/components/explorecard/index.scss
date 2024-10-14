@@ -1,0 +1,77 @@
+.explore-card {
+    width: 30%;
+    min-height: 300px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.explore-card-wrapper {
+    text-decoration: none;
+    color: $black;
+    transition: all 0.3s ease;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    &:hover {
+        scale: 1.1;
+    }
+
+    .explore-card--image {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+    }
+}
+
+.explore-card-text {
+    z-index: 10;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem 1rem;
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $white;
+    }
+
+    span {
+        opacity: 0;
+        background: $white;
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+        transition: all 1s ease;
+        align-items: center;
+        justify-content: center;
+        transition: all 1.4s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.explore-card:hover .explore-card-text span {
+    opacity: 1;
+    color: $black;
+    background: $white;
+}
+

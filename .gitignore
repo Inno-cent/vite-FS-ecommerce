@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.yarn
+.yarn/*
+
+# Ignore the yarn cache
+.yarn/cache/
+
+.yarn\cache
